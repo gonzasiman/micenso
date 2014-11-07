@@ -1,0 +1,217 @@
+/* Space out content a bit */
+
+/*
+.sprites { background: url(sprites.png) no-repeat; }
+.a01 { width: 289px; height: 127px; background-position: -92px -136px; } //logo
+.a02 { width: 40px; height: 40px; background-position: 0 -211px; } //caritA
+.a03 { width: 33px; height: 22px; background-position: -92px -266px; } //flecha arriba
+.a04 { width: 33px; height: 22px; background-position: -92px -291px; } //flecha abajo
+.a05 { width: 109px; height: 145px; background-position: -137px -266px; } //lugar
+.a06 { width: 150px; height: 133px; background-position: -236px 0; } //libro
+.a07 { width: 88px; height: 88px; background-position: -389px -96px; } //circulo si
+.a08 { width: 88px; height: 88px; background-position: 0 -120px; }// circulo no
+.a09 { width: 75px; height: 75px; background-position: -384px -187px; }//cruz chiquita
+.a10 { width: 78px; height: 93px; background-position: -389px 0; }//escuela prim
+.a11 { width: 63px; height: 93px; background-position: 0 -302px; }//escuela secu
+.a12 { width: 68px; height: 94px; background-position: -66px -316px; }//escuela ter
+.a13 { width: 233px; height: 117px; background-position: 0 0; }//trabajo
+.a14 { width: 228px; height: 147px; background-position: -249px -266px; }//computadora
+*/
+.sprite { background: url(csg-545d20fbac55b.png) no-repeat top left; };
+.sprite-01{ background-position: 0 0; width: 289px; height: 127px; } 
+.sprite-02{ background-position: 0 -177px; width: 89px; height: 88px; cursor: pointer; opacity: 0.7;} 
+.sprite-03{ background-position: 0 -315px; width: 33px; height: 22px; cursor: pointer; opacity: 0.7;} 
+.sprite-04{ background-position: 0 -387px; width: 33px; height: 22px; } 
+.sprite-05{ background-position: 0 -459px; width: 109px; height: 145px; } 
+.sprite-06{ background-position: 0 -654px; width: 150px; height: 133px; } 
+.sprite-07{ background-position: 0 -837px; width: 88px; height: 88px; cursor: pointer; opacity: 0.7;} 
+.sprite-08{ background-position: 0 -975px; width: 88px; height: 88px; cursor: pointer; opacity: 0.7;} 
+.sprite-09{ background-position: 0 -1113px; width: 75px; height: 75px; cursor: pointer; opacity: 0.7;} 
+.sprite-10{ background-position: 0 -1238px; width: 78px; height: 93px; cursor: pointer; opacity: 0.7;} 
+.sprite-11{ background-position: 0 -1381px; width: 63px; height: 93px; cursor: pointer; opacity: 0.7;} 
+.sprite-12{ background-position: 0 -1524px; width: 68px; height: 94px; cursor: pointer; opacity: 0.7;} 
+.sprite-13{ background-position: 0 -1668px; width: 233px; height: 117px; } 
+.sprite-14{ background-position: 0 -1835px; width: 228px; height: 147px; } 
+
+.sprite-02:hover{opacity: 1;}
+.sprite-03:hover{opacity: 1;}
+.sprite-07:hover{opacity: 1;}
+.sprite-08:hover{opacity: 1;}
+.sprite-09:hover{opacity: 1;}
+.sprite-10:hover{opacity: 1;}
+.sprite-11:hover{opacity: 1;}
+.sprite-12:hover{opacity: 1;}
+.sprite-13:hover{opacity: 1;}
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.formulario{
+    position: absolute;
+    background-color: #0300B2;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    margin-top: -20%;
+    padding: 10px;
+    left: 50%;
+    margin-left: -45%;
+}
+
+.formulario-head{
+    width: 100%;
+    height: 20%;
+    background-size: 20%;
+}
+
+.bloque {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    margin: 5px;
+    height: 24%;
+    color: #0300B2;
+   -webkit-box-shadow:3px 3px 4px #02007C;
+   -moz-box-shadow:3px 3px 4px #02007C;
+        box-shadow:3px 3px 4px #02007C;
+}
+
+.bloque-1{
+    width: 20%;
+}
+
+.bloque-2{
+    width: 30%;
+}
+
+.bloque-3{
+    width: 57%;
+}
+
+.bloque-4{
+    width: 68%;
+}
+
+.bloque-5{
+    width: 49%;
+}
+
+.two-panel{
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+}
+
+.two-row{
+    height: 50%;
+}
+
+.new-select{
+    margin-left: 10px;
+    width: 70%;
+    border: 1px #0300B2;
+}
+
+.elemento4{
+    width: 23%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+.elemento2{
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+.elemento1{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+.elemento4 label{
+    display: block;
+}
