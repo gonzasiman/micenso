@@ -9,5 +9,8 @@ A partir de una caracterización personal el usuario puede conocer su situación
 Para empezar:
 
 1) Instalar las dependencias con bower
+
     $ cd ~/front-end
+    
     $ npm install & bower install
+    
